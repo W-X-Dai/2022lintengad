@@ -21,7 +21,11 @@ int y,m,d;
 
 inline void day(){
     int tmp=arr[0];dis=arr[0];
+    //關於最大公因數和最小公倍數也可以練習這兩題：
+    //http://infor.ylsh.ilc.edu.tw/problem/40(題解：http://infor.ylsh.ilc.edu.tw/blog/josh930908/post/38 pD)
+    //http://infor.ylsh.ilc.edu.tw/problem/46
     for(int i=1;i<n;++i){
+        //__gcd(a,b)代表a跟b的最大公因數(是兩條底線不是一條)
         tmp=__gcd(dis,arr[i]);
         dis=(dis*arr[i])/tmp;
     }
