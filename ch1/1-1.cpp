@@ -24,7 +24,7 @@ int main(){
 	else cout<<ans<<":";
 	t-=(t/3600)*3600;
 	
-    ans=t/60;
+	ans=t/60;
 	if(ans<10)cout<<0<<ans<<":";
 	else cout<<ans<<":";
 	t-=(t/60)*60;
