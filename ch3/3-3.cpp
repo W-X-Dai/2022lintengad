@@ -3,6 +3,7 @@ using namespace std;
 
 int cnt;
 //基本參考：https://hackmd.io/@apcsd3d4/r1JtpJFiI#/
+//basic hanio tower:http://infor.ylsh.ilc.edu.tw/problem/76
 inline void hanio(int n,char from,char to,char mid){
 //    ++cnt;
     if(n<=0)return;
