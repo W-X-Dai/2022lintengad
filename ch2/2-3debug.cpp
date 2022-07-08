@@ -17,6 +17,7 @@ void mark(int n){
 void hor(){
   int temp=0;
   for(int i=0;i<5;i++){//每次開始前temp要歸0，否則會無盡疊加上去
+    temp=0;
     for(int j=0;j<5;j++){
       if(a[i][j]==0)
         temp++;
@@ -35,6 +36,7 @@ void hor(){
 void ver(){
   int temp=0;
   for(int j=0;j<5;j++){//每次開始前temp要歸0，否則會無盡疊加上去
+    temp=0;
     for(int i=0;i<5;i++){
       if(a[i][j]==0)
         temp++;
