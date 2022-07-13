@@ -95,6 +95,7 @@ bool dia_2(int n){
 }
 
 int main(){
+    ios::sync_with_stdio(0),cin.tie(0);
     char x;
     int n,p[16];
     cin>>x>>n;
